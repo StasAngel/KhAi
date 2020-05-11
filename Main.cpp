@@ -1,8 +1,8 @@
-#include <QApplication>
-#include <QPushButton>
-#include <stdio.h>
+//#include <QApplication>
+//#include <QPushButton>
+#include <iostream>
 
-void printHello(char* pName);
+//void printHello(char* pName);
 
 int main(int argc, char *argv[])
 {
@@ -14,12 +14,16 @@ int main(int argc, char *argv[])
 	// any change
 	cout << "BLA BLA BLA" << endl;
 	// just for example
-	printHello("Dragula");
+	cout << "Hello my friend " << "Dragula" << endl;
 	// end program
 	return app.exec();
 }
 
+
+/*
+// changes was comment from MS Visual Studio 2017
 void printHello(char* pName)
 {
 	printf("Hello my friend %s\n", pName);
 }
+*/
